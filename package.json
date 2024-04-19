@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "dev":"nodemon src/index.js"
   },
   "keywords": [
     "node",
     "chai",
     "javascript"
   ],
+  "type": "module",
   "author": "kunga younthen",
   "license": "ISC",
   "dependencies": {
