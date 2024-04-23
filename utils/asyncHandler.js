@@ -3,7 +3,7 @@
     try {
         await fn(req, res, next);
     } catch (e) {
-        res.status(err.code || 500).json({
+        res.status(e.code || 500).json({
             sucess: false,
             message: e.message
         })
